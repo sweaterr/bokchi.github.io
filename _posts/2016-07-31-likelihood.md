@@ -19,12 +19,11 @@ p(x|\mu, \sigma) = \frac{1}{\sigma \sqrt {2 \pi }} e^{ { - \left( {x - \mu } \ri
 
 ![probability_likelihood](/images/likelihood-fig1.png)
 
-당연하게도 형태가 상당히 다르다. 특히 왼쪽그래프는 확률의 특성상 적분하면 1이 얻어지지만 오른쪽 그래프는 1이 얻어지지 않는다. 무슨값이 나오는지 계산해보진 않았지만 일단 모양이 많이 다르다.
+당연하게도 형태가 상당히 다르다. 특히 왼쪽그래프는 확률의 특성상 적분하면 1이 얻어지지만 오른쪽 그래프는 1이 얻어지지 않는다. 무슨 값이 나오는지 계산해보진 않았지만 일단 모양이 많이 다르다.
 
 ### References
 * Doing Bayesian Data Analysis, Second Edition, p125
 * https://en.wikipedia.org/wiki/Likelihood_function
-  * 여기의 표기법은 좀 혼동스럽다. 위키만으로는 \\(\mathcal{L}(b\|a) \\)을 우도값으로 봐야할지, 우도함수로 봐야할지 잘 모르겠다.
-  * 확률과 확률밀도함수는 구분지어서 이야기하는데, 우도도 그래야하지 않을까.
+  * 여기의 표기법은 좀 혼동스럽다. 위키만으로는 \\(\mathcal{L}(b\|a) \\)을 우도(값)으로 봐야할지, 우도함수로 봐야할지 잘 모르겠다. 확률과 확률밀도함수는 구분지어서 이야기하는데, 우도도 그래야하지 않을까.
 * https://en.wikipedia.org/wiki/Probability_density_function
 * https://en.wikipedia.org/wiki/Conditional_probability_distribution
